@@ -29,4 +29,9 @@ public class BrowserHelper {
   public void deleteCookies(WebDriver driver) {
     driver.manage().deleteAllCookies();
   }
+
+  public void closeBrowser(){
+  driver.close();
+  }
+
 }
