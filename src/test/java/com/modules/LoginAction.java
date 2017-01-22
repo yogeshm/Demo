@@ -24,5 +24,6 @@ public class LoginAction {
     String actualErrorMessage = login.getErrorDialogMsg();
     TextCheckPoint.verifyText(actualErrorMessage, expErrorMessage);
     login.pressOKButton();
+	//verify error
   }
 }
